@@ -1,13 +1,27 @@
 import Image from 'next/image'
 import { AspectRatio } from "@/components/ui/AspectRatio"
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+} from "@/components/ui/NavigationMenu"
 
 
 export default function Home() {
   return (
-    <main>
-      <div className = "flex-col items-center justify-center align-middle w-screen px-4">
-        
+    <>
+      <div className = "flex-col p-4">
+        <div className = "flex gap-4">
+          <div>
+
+          </div>
+        </div>
       </div>
-    </main>
+    </>
   )
 }
