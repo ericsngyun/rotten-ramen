@@ -17,16 +17,31 @@ type Props = {}
 const Nav = (props: Props) => {
   return (
     <div className = "flex justify-between px-8 py-4">
-        <h1 className = "logo text-2xl text-[#18181c]">
-          rotten-ramen
+        <h1 className = "logo text-4xl text-[#18181c] font-bold">
+            rotramen
         </h1>
         <div>
-          <NavigationMenu>
+          <NavigationMenu className = "navmenu">
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
-                <NavigationMenuContent>
+                <NavigationMenuTrigger>Anime</NavigationMenuTrigger>
+                <NavigationMenuContent className = "p-6 grid columns-2">
                   <NavigationMenuLink>Link</NavigationMenuLink>
+                  
+                </NavigationMenuContent>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <NavigationMenuTrigger>Manga</NavigationMenuTrigger>
+                <NavigationMenuContent className = "p-6 grid columns-2">
+                  <NavigationMenuLink>Link</NavigationMenuLink>
+                  
+                </NavigationMenuContent>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <NavigationMenuTrigger>Webtoon</NavigationMenuTrigger>
+                <NavigationMenuContent className = "p-6 grid columns-2">
+                  <NavigationMenuLink>Link</NavigationMenuLink>
+                  
                 </NavigationMenuContent>
               </NavigationMenuItem>
             </NavigationMenuList>

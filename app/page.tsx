@@ -15,10 +15,10 @@ import {
 export default function Home() {
   return (
     <>
-      <div className = "flex-col p-4">
+      <div className = "flex-col px-8">
         <div className = "flex gap-4">
           <div>
-
+            
           </div>
         </div>
       </div>
