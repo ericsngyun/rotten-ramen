@@ -10,16 +10,17 @@ import {
   NavigationMenuTrigger,
   NavigationMenuViewport,
 } from "@/components/ui/NavigationMenu"
+import TopContent from '@/containers/TopContent'
 
 
 export default function Home() {
+
+
   return (
     <>
       <div className = "flex-col px-8">
-        <div className = "flex gap-4">
-          <div>
-            
-          </div>
+        <div className = "flex gap-4 w-[75vw]">
+          <TopContent/>
         </div>
       </div>
     </>
